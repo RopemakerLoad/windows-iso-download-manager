@@ -1,0 +1,78 @@
+<svg viewBox="0 0 1200 360" width="1200" height="360" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0%" stop-color="#0a1628"/>
+<stop offset="55%" stop-color="#0e2440"/>
+<stop offset="100%" stop-color="#0a3a5c"/>
+</linearGradient>
+<linearGradient id="pane1" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0%" stop-color="#3ec6ff"/>
+<stop offset="100%" stop-color="#1d7fd6"/>
+</linearGradient>
+<linearGradient id="pane2" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0%" stop-color="#66d9ff"/>
+<stop offset="100%" stop-color="#2a9de0"/>
+</linearGradient>
+<radialGradient id="glow" cx="50%" cy="50%" r="50%">
+<stop offset="0%" stop-color="#4fd0ff" stop-opacity="0.55"/>
+<stop offset="100%" stop-color="#4fd0ff" stop-opacity="0"/>
+</radialGradient>
+<linearGradient id="beam" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0%" stop-color="#8be9ff" stop-opacity="0.9"/>
+<stop offset="100%" stop-color="#8be9ff" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="diskEdge" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0%" stop-color="#e6f7ff"/>
+<stop offset="100%" stop-color="#9cd9f5"/>
+</linearGradient>
+</defs>
+
+<rect x="0" y="0" width="1200" height="360" fill="url(#bg)"/>
+
+<circle cx="960" cy="150" r="230" fill="url(#glow)"/>
+
+<line x1="0" y1="40" x2="1200" y2="40" stroke="#1c4a6e" stroke-width="1" opacity="0.35"/>
+<line x1="0" y1="100" x2="1200" y2="100" stroke="#1c4a6e" stroke-width="1" opacity="0.3"/>
+<line x1="0" y1="160" x2="1200" y2="160" stroke="#1c4a6e" stroke-width="1" opacity="0.25"/>
+<line x1="0" y1="220" x2="1200" y2="220" stroke="#1c4a6e" stroke-width="1" opacity="0.2"/>
+<line x1="0" y1="280" x2="1200" y2="280" stroke="#1c4a6e" stroke-width="1" opacity="0.15"/>
+<line x1="150" y1="0" x2="150" y2="360" stroke="#1c4a6e" stroke-width="1" opacity="0.15"/>
+<line x1="400" y1="0" x2="400" y2="360" stroke="#1c4a6e" stroke-width="1" opacity="0.12"/>
+<line x1="650" y1="0" x2="650" y2="360" stroke="#1c4a6e" stroke-width="1" opacity="0.1"/>
+
+<g opacity="0.95">
+<rect x="905" y="55" width="115" height="115" rx="6" fill="url(#pane1)"/>
+<rect x="1030" y="55" width="120" height="115" rx="6" fill="url(#pane2)" opacity="0.9"/>
+<rect x="905" y="180" width="115" height="118" rx="6" fill="url(#pane2)" opacity="0.85"/>
+<rect x="1030" y="180" width="120" height="118" rx="6" fill="url(#pane1)" opacity="0.9"/>
+<line x1="907" y1="167" x2="1148" y2="167" stroke="#0a1628" stroke-width="3"/>
+<line x1="1023" y1="57" x2="1023" y2="296" stroke="#0a1628" stroke-width="3"/>
+</g>
+
+<g transform="translate(978,177)">
+<rect x="-16" y="-70" width="32" height="60" fill="url(#beam)"/>
+<path d="M -34 -10 L 34 -10 L 0 42 Z" fill="#eafcff"/>
+<rect x="-16" y="-70" width="32" height="60" fill="none" stroke="#eafcff" stroke-width="4" stroke-linejoin="round"/>
+<path d="M -34 -10 L 34 -10 L 0 42 Z" fill="none" stroke="#eafcff" stroke-width="4" stroke-linejoin="round"/>
+</g>
+
+<g opacity="0.9">
+<ellipse cx="978" cy="240" rx="120" ry="10" fill="#08283f"/>
+<circle cx="978" cy="238" r="10" fill="url(#diskEdge)" stroke="#0a1628" stroke-width="2"/>
+</g>
+
+<g opacity="0.35">
+<circle cx="150" cy="70" r="3" fill="#8be9ff"/>
+<circle cx="260" cy="120" r="2" fill="#8be9ff"/>
+<circle cx="90" cy="200" r="2.5" fill="#8be9ff"/>
+<circle cx="330" cy="260" r="2" fill="#8be9ff"/>
+<circle cx="200" cy="300" r="3" fill="#8be9ff"/>
+</g>
+
+<text x="60" y="150" font-family="'Segoe UI', Arial, sans-serif" font-size="72" font-weight="700" fill="#f2fbff" textLength="780" lengthAdjust="spacingAndGlyphs">Windows ISO</text>
+<text x="60" y="228" font-family="'Segoe UI', Arial, sans-serif" font-size="72" font-weight="700" fill="#f2fbff" textLength="480" lengthAdjust="spacingAndGlyphs">Downloader</text>
+
+<text x="62" y="270" font-family="'Segoe UI', Arial, sans-serif" font-size="24" fill="#a9d8ee" textLength="760" lengthAdjust="spacingAndGlyphs">Fetch, verify, mirror — Windows ISO grabber, one .exe</text>
+
+<line x1="62" y1="288" x2="700" y2="288" stroke="#3ec6ff" stroke-width="2" opacity="0.5"/>
+</svg>
